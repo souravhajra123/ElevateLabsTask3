@@ -73,7 +73,7 @@ cat main.tf    # to see the content inside main.tf
 ```
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask3/blob/28251bde6e97f076047e88f375c5197d29248a98/images/7.JPG)
 
-# 7. Now initialize terraform(it will read your code & based on your code it will download the modules or plugins in .terraform directory)
+# 7. Now initialize terraform(it will read your code & based on your code it will download the modules or plugins in `.terraform` directory)
 ```bash
 terraform init
 ```
