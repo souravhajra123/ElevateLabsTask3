@@ -73,10 +73,25 @@ cat main.tf    # to see the content inside main.tf
 ```
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask3/blob/28251bde6e97f076047e88f375c5197d29248a98/images/7.JPG)
 
-
-
-
-
+# 7. Now initialize terraform(it will read your code & based on your code it will download the modules or plugins in .terraform directory)
+```bash
+terraform init
+```
+# 8. Validate the code(it will check your code's syntax)
+```bash
+terraform validate
+```
+# 9. Plan(it will tell you what this code is going to do)
+```bash
+terraform plan
+```
+# 10. Apply the code(it will create the resources)
+```bash
+terraform apply --auto-approve
+```
+![image alt](https://github.com/souravhajra123/ElevateLabsTask3/blob/d2b410807b4a4f73fd6687d8044ea5cc44d9f7c6/images/8.JPG)
+![image alt](https://github.com/souravhajra123/ElevateLabsTask3/blob/d2b410807b4a4f73fd6687d8044ea5cc44d9f7c6/images/9.JPG)
+![image alt](https://github.com/souravhajra123/ElevateLabsTask3/blob/d2b410807b4a4f73fd6687d8044ea5cc44d9f7c6/images/10.JPG)
 
 
 
