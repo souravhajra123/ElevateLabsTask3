@@ -93,11 +93,48 @@ terraform apply --auto-approve
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask3/blob/d2b410807b4a4f73fd6687d8044ea5cc44d9f7c6/images/9.JPG)
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask3/blob/d2b410807b4a4f73fd6687d8044ea5cc44d9f7c6/images/10.JPG)
 
+# 11. Check if resources got created or not
+```bash
+docker images
+docker ps
+```
+![image alt](https://github.com/souravhajra123/ElevateLabsTask3/blob/98c449ba15880db23e86e6487e62047b43133ae0/images/11.JPG)
 
+# 12. Browse the base machine's public IP on port 8080 to see the container's output
+![image alt](https://github.com/souravhajra123/ElevateLabsTask3/blob/98c449ba15880db23e86e6487e62047b43133ae0/images/12.JPG)
+![image alt](https://github.com/souravhajra123/ElevateLabsTask3/blob/98c449ba15880db23e86e6487e62047b43133ae0/images/13.JPG)
 
+# 13. Now apply the code again by printing logs on the Terminal(it will delete the previous resource and create new one)
+```bash
+TF_LOG=TRACE terraform apply
+```
+![image alt](https://github.com/souravhajra123/ElevateLabsTask3/blob/98c449ba15880db23e86e6487e62047b43133ae0/images/14.JPG)
 
+# 14. Again apply the code by creating a log file in current directory(it will delete the previous resource and create new one)
+```bash
+TF_LOG=TRACE TF_LOG_PATH=terraform.log terraform apply
+```
+![image alt](https://github.com/souravhajra123/ElevateLabsTask3/blob/98c449ba15880db23e86e6487e62047b43133ae0/images/15.JPG)
 
+# 15. List the contents in the directory, there you can find terraform.log got generated
+```bash
+ls
+```
+![image alt](https://github.com/souravhajra123/ElevateLabsTask3/blob/98c449ba15880db23e86e6487e62047b43133ae0/images/16.JPG)
 
+# 16. Now delete the resources created by terraform
+```bash
+terraform destroy --auto-approve
+```
+![image alt](https://github.com/souravhajra123/ElevateLabsTask3/blob/98c449ba15880db23e86e6487e62047b43133ae0/images/17.JPG)
+![image alt](https://github.com/souravhajra123/ElevateLabsTask3/blob/98c449ba15880db23e86e6487e62047b43133ae0/images/18.JPG)
+
+# Check if resources got deleted or not
+```bash
+docker images
+docker ps
+```
+![image alt](https://github.com/souravhajra123/ElevateLabsTask3/blob/98c449ba15880db23e86e6487e62047b43133ae0/images/19.JPG)
 
 
 
