@@ -64,7 +64,7 @@ terraform --version
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask3/blob/28251bde6e97f076047e88f375c5197d29248a98/images/5.JPG)
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask3/blob/28251bde6e97f076047e88f375c5197d29248a98/images/6.JPG)
 
-# 6. Now create a directory, then go inside the directory and write .tf file to provision the docker container
+# 6. Now create a directory, then go inside the directory and write `.tf` file to provision the docker container
 ```bash
 mkdir TF
 cd TF
