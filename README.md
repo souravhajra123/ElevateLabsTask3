@@ -116,7 +116,7 @@ TF_LOG=TRACE TF_LOG_PATH=terraform.log terraform apply
 ```
 ![image alt](https://github.com/souravhajra123/ElevateLabsTask3/blob/98c449ba15880db23e86e6487e62047b43133ae0/images/15.JPG)
 
-# 15. List the contents in the directory, there you can find terraform.log got generated
+# 15. List the contents in the directory, there you can find `terraform.log` got generated in that directory
 ```bash
 ls
 ```
